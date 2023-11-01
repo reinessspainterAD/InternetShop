@@ -1,0 +1,101 @@
+@font-face {
+    font-family: "Robobto300";
+    src: url('../../../public/fonts/Roboto-Light.ttf');
+}
+
+@font-face {
+    font-family: "Bad Script";
+    src: url('../../../public/fonts/BadScript-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Roboto400";
+    src: url('../../../public/fonts/Roboto400.ttf');
+}
+
+.Promotion{
+    width: 1352px;
+    height: 535px;
+    display: block;
+    margin-top: 300px;
+    margin-left: 135px;
+}
+
+.ProductionBox{
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-between;
+}
+
+.Product{
+    width: 278px;
+    height: 413px;
+    display: block;
+}
+
+.ProductImg{
+    width: 278px;
+    height: 319px;
+    align-items: left;
+}
+
+.Detailed label{
+    width: 76px;
+    height: 9px;
+}
+
+.Detailed img{
+    width: 25px;
+    height: auto;
+}
+
+
+
+.Detailed{
+    width: 148px;
+    height: 37px;
+}
+
+.Text1{
+    width: 134px;
+    font-family: "Roboto300", sans-serif;
+    font-size: 40px;
+}
+
+.Text2{
+    width: 131px;
+    height: 31px;
+    font-family: "Bad Script", sans-serif;
+    font-size: 40px;
+    color: #514A7E;
+    margin-left: 15px;
+    position: absolute;
+    top: 1615px;
+}
+
+.PromPrice{
+    width: 49px;
+    height: 9px;
+    font-family: "Roboto400", sans-serif;
+    font-size: 14px;
+    color: #121212;
+}
+
+.RegPrice{
+    width: 62px;
+    height: 9px;
+    padding-left: 12px;
+    font-family: "Roboto400", sans-serif;
+    font-size: 14px;
+    text-decoration: line-through;
+    text-decoration-thickness: 1px;
+    color:#514A7E;
+
+}
+
+.productName{
+    width: 148px;
+    height: 9px;
+    font-family: "Roboto400", sans-serif;
+    font-size: 12px;
+}

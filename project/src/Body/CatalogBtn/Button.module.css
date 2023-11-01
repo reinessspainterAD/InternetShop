@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "Roboto400";
+    src: url('../../../public/fonts/Roboto400.ttf');
+}
+.BtnWrapper{
+    position: absolute;
+    margin-top: 87px;
+    margin-left: 623px;
+    width: 193px;
+    height: 193px;
+    border-radius: 50%;
+}
+
+.Btn{
+    position: relative;
+    width: 193px;
+    height: 193px;
+    border-radius: 50%;
+    background-color: white;
+    border:1px solid #514A7E;
+}
+
+.Btn:hover{
+    background-color: #514A7E;
+    border:1px solid #514A7E;
+}
+
+.BtnLabel{
+    display: inline-block;
+    color: #514A7E;
+    margin-right: 37px;
+    font-family: "Roboto400", sans-serif;
+    font-size: 20px;
+}
+
+.Btn img{
+    display: block;
+    margin-top: 5px;
+    margin-left: 77px;
+}
+
+.Btn:hover > label {
+    color: #FFFDF5;
+}
+
+.Btn:hover > img {
+    fill: #FFFDF5;
+}

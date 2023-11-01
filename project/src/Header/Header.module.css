@@ -7,6 +7,7 @@
 
 .Header{
     display: flex;
+    margin-bottom: 135px;
 }
 
 .Menu{
@@ -18,7 +19,7 @@
     border: none;
     background-color: white;
     margin-left: 135px;
-    margin-right: 559px;
+    margin-right: 694px;
     margin-top: 49px;
 }
 .Menu img{

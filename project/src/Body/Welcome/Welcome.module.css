@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "Bad Script";
+    src: url('../../../public/fonts/BadScript-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Robobto300";
+    src: url('../../../public/fonts/Roboto-Light.ttf');
+}
+.Welcome{
+
+    position: relative;
+    width: 1444px;
+}
+
+.Img1{
+    vertical-align: top;
+    margin-left: 135px;
+    margin-right: 380px;
+}
+
+.Img2{
+    vertical-align: top;
+}
+
+.Welcoming{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 537px;
+    height: 114px;
+    margin-left: 135px;
+    font-family: "Roboto300", sans-serif;
+    font-size: 60px;
+}
+.Cocteil{
+    font-family: "Bad Script";
+    font-size: 60px;
+    color: #514A7E;
+    line-height: 160%;
+}
+
+.SmallText{
+    position: absolute;
+    top: 350px;
+    left: 0;
+    width: 249px;
+    height: 138px;
+    margin-left: 135px;
+    margin-top: 174px;
+}
+
+.SmallText p{
+    margin: 0;
+    font-family: "Roboto300", sans-serif;
+    font-size: 16px;
+    color: #7D7D7D;
+}

@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "Robobto300";
+    src: url('../../../public/fonts/Roboto-Light.ttf');
+}
+
+.QAnswers{
+    width: 1029px;
+    height: 318px;
+    margin-left: 135px;
+    position: absolute;
+    top: 1136px;
+
+}
+
+.Question{
+    width: 440px;
+    height: 40px;
+    font-family: "Roboto300", sans-serif;
+    font-size: 40px;
+    color: #121212;
+    margin-bottom: 94px;
+}
+
+.FirstLine{
+    display: flex;
+    margin-bottom: 95px;
+    justify-content: space-between;
+}
+
+.SecondLine{
+    display: flex;
+    justify-content: space-around;
+}
+
+.FirstLine div{
+    width: 175px;
+    height: 26px;
+    font-family: "Roboto300", sans-serif;
+    font-size: 14px;
+    color: #7D7D7D;
+}
+
+.SecondLine div{
+    width: 175px;
+    height: 26px;
+    font-family: "Roboto300", sans-serif;
+    font-size: 14px;
+    color: #7D7D7D;
+}
+/*.SecondLineFirst{
+    width: 175px;
+    height: 26px;
+}
+
+.SecondLineSecond{
+    width: 175px;
+    height: 26px;
+    margin-left: 380px;
+}*/
+

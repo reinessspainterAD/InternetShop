@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <div className={styles.Header}>
             <button className={styles.Menu}>
-                <img  src="./img/clarity_menu-line.svg" alt="menu" />
+                <img src="./img/clarity_menu-line.svg" alt="menu" />
             </button>
             <button className={styles.Search}>
                 <img src='./img/clarity_search-line.svg' alt='search'/>

@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "Robobto300";
+    src: url('../../../public/fonts/Roboto-Light.ttf');
+}
+
+.SocialMedia{
+    padding-top: 81.89px;
+    padding-left: 97px;
+    width: 202px;
+    height: 139.4px;
+}
+
+.SocialMediaLabel{
+    font-family: "Roboto400";
+    font-size: 20px;
+    color:  #FFFDF5;
+}
+
+.SocialMediaImage{
+    padding-top: 16.43px;
+    width: 128.8px;
+    height: 21.91px;
+}
+
+.PhoneNumber label{
+    padding-left: 15.5px;
+    font-family: "Roboto300", sans-serif;
+    font-size: 12px;
+    color:  #FFFDF5;
+    padding-bottom: 16.43px;
+}
+
+.PhoneNumber img{
+    width: 20px;
+    height: 20px;
+}
+
+.WorkTime label{
+    padding-left: 15.5px;
+    font-family: "Roboto300", sans-serif;
+    font-size: 12px;
+    color:  #FFFDF5; 
+    padding-top: 16.43px;
+}
+
+.WorkTime img{
+    width: 20px;
+    height: 20px;
+}
