@@ -25,6 +25,7 @@
     display: flex;
     margin-top: 60px;
     justify-content: space-between;
+    /* overflow-x: scroll; */
 }
 
 .Product{
@@ -33,10 +34,18 @@
     display: block;
 }
 
+
+/* .ProductMainImg{
+    width: 278px;
+    height: 319px;
+} */
+
 .ProductImg{
     width: 278px;
     height: 319px;
     align-items: left;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 -2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .Detailed label{
@@ -47,13 +56,15 @@
 .Detailed img{
     width: 25px;
     height: auto;
+    margin-left: 9px;
 }
-
-
 
 .Detailed{
     width: 148px;
     height: 37px;
+    margin-top: 5px;
+    border: 0.5px solid #121212;
+    background-color: #FFFDF5;
 }
 
 .Text1{
@@ -70,7 +81,12 @@
     color: #514A7E;
     margin-left: 15px;
     position: absolute;
-    top: 1615px;
+    top: 1590px;
+}
+
+.LabelDiv{
+    margin-top: 5px;
+
 }
 
 .PromPrice{
@@ -79,6 +95,7 @@
     font-family: "Roboto400", sans-serif;
     font-size: 14px;
     color: #121212;
+
 }
 
 .RegPrice{
@@ -88,14 +105,46 @@
     font-family: "Roboto400", sans-serif;
     font-size: 14px;
     text-decoration: line-through;
-    text-decoration-thickness: 1px;
     color:#514A7E;
-
 }
 
-.productName{
+.ProductName{
     width: 148px;
     height: 9px;
     font-family: "Roboto400", sans-serif;
     font-size: 12px;
+    color:#7D7D7D;
+}
+
+.Heart{
+    /* position: absolute; */
+    /* top: 1700px; */
+    margin-left: 77px;
+}
+
+.Bag{
+    /* position: absolute; */
+    /* top: 2050px; */
+    margin-left: 15px;
+}
+
+.Revs{
+    /* position: absolute; */
+    /* top: 2105px; */
+    margin-left: 75px;
+}
+
+.Scroller{
+    position: absolute;
+    top: 1977px;
+    left: 1363px;
+    width: 85px;
+    height: 47px;
+    background-color: white;
+    border:none;
+}
+
+.ScrollerImg{
+    width: 46px;
+    height: auto;
 }

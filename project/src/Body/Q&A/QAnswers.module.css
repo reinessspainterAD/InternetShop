@@ -33,6 +33,7 @@
 }
 
 .FirstLine div{
+    display: flex;
     width: 175px;
     height: 26px;
     font-family: "Roboto300", sans-serif;
@@ -41,11 +42,65 @@
 }
 
 .SecondLine div{
+    display: flex;
     width: 175px;
     height: 26px;
     font-family: "Roboto300", sans-serif;
     font-size: 14px;
     color: #7D7D7D;
+}
+
+.Ellipse1{
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    top: 145px;
+    left: 95px;
+}
+
+.Ellipse2{
+    position: absolute;
+    width: 94px;
+    height: 94px;
+    top: 83px;
+    left: 720px;
+}
+
+.Ellipse3{
+    position: absolute;
+    width: 94px;
+    height: 94px;
+    top: 262px;
+    left: 308px;
+}
+
+.Ellipse4{
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    top: 240px;
+    left: 834px;
+}
+
+.Up{
+    position: absolute;
+    top: 270px;
+    width: 72px;
+    height: 72px;
+    background-color: #514A7E;
+    border-radius: 50%;
+    border: 1px solid #514A7E;
+}
+
+.Chat{
+    position: absolute;
+    top: 270px;
+    left: 1100px;
+    width: 72px;
+    height: 72px;
+    background-color: #514A7E;
+    border-radius: 50%;
+    border: 1px solid #514A7E;
 }
 /*.SecondLineFirst{
     width: 175px;

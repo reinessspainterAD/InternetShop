@@ -1,0 +1,110 @@
+@font-face {
+    font-family: "Roboto300";
+    src: url('../../../public/fonts/Roboto-Light.ttf');
+}
+
+@font-face {
+    font-family: "Bad Script";
+    src: url('../../../public/fonts/BadScript-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Roboto400";
+    src: url('../../../public/fonts/Roboto400.ttf');
+}
+
+.Questions{
+    position: absolute;
+    top: 2839px;
+    left:135px;
+    width: 1170px;
+    height: 497px;
+}
+
+.Labels{
+    display: flex;
+}
+
+.FirstLabel{
+    display: flex;
+    width: 525px;
+    height: 40px;
+    color: #121212;
+    font-family: "Roboto300";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 87.305%; /* 34.922px */
+}
+
+.SecondLabel{
+    width: 103px;
+    height: 31px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #514A7E;
+    font-family: "Bad Script";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 87.305%;
+    margin-top: 31px;
+    margin-left: 14px;
+}
+
+.QuestionsBox{
+    margin-top: 66px;
+}
+
+.OneQuestion{
+    width: 1170px;
+    height: 36px;
+    
+}
+
+.ImTired {
+    display: flex;
+    align-items: center;
+    width: 1170px;
+    height: 36px;
+    border-bottom: 0.5px solid #7D7D7D;
+    margin-bottom: 10px;
+}
+  
+.QuestionLabel {
+    flex: 1;
+    color: #121212;
+    font-family: "Roboto400";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+  
+.ShowMessage {
+    margin-left: auto;
+    border: none;
+    background-color: transparent;
+}
+.MarginBottom {
+    margin-bottom: 40px;
+}
+
+.AppearingMes{
+    margin-top: 40px;
+
+}
+
+.Message{
+    width: 1170px;
+    height: 50px;
+    flex-direction: column;
+    justify-content: center;
+    color: #7D7D7D;
+    font-family: "Roboto300";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 118%;
+}

@@ -1,0 +1,137 @@
+@font-face {
+    font-family: "Roboto300";
+    src: url('../../../public/fonts/Roboto-Light.ttf');
+}
+
+@font-face {
+    font-family: "Bad Script";
+    src: url('../../../public/fonts/BadScript-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Roboto400";
+    src: url('../../../public/fonts/Roboto400.ttf');
+}
+
+.Cooperation{
+    width: 1171px;
+    height: 467px;
+    flex-shrink: 0;
+    position: relative;
+    left: 135px;
+    top: 420px;
+}
+
+.CooperationLabel{
+    width: 451px;
+    height: 23px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #121212;
+    font-family: "Roboto300";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 87.305%;
+}
+
+.CooperationText{
+    width: 1170px;
+    height: 29px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #7D7D7D;
+    font-family: "Roboto300";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 118%; /* 18.88px */
+    margin-top: 73px;
+}
+
+.Offerings{
+    width: 1170px;
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-between;
+}
+
+.Offering{
+    text-align: center;
+}
+
+.Offering label{
+    width: 121px;
+    height: 37px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #121212;
+    text-align: center;
+    font-family: "Roboto400";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 118%; /* 23.6px */
+}
+
+.Offering p{
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #7D7D7D;
+    text-align: center;
+    font-family: "Roboto300";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 118%;
+    margin-bottom: 62px;
+}
+
+.CooperationLabel2{
+    width: 350px;
+    height: 18px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #121212;
+    font-family: "Roboto400";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 87.305%; /* 17.461px */
+}
+
+.Advantages{
+    display: flex;
+    margin-top: 66px;
+    justify-content: space-between;
+}
+
+.Advantage{
+    text-align: center;
+}
+
+.Advantage img{
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+    color:#514A7E;
+}
+
+.Advantage p{
+    width: 174px;
+    height: 7px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #7D7D7D;
+    font-family: "Roboto300";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 118%; /* 16.52px */
+}

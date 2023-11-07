@@ -1,0 +1,142 @@
+@font-face {
+    font-family: "Roboto400";
+    src: url('../../../public/fonts/Roboto400.ttf');
+}
+
+@font-face {
+    font-family: "Robobto300";
+    src: url('../../../public/fonts/Roboto-Light.ttf');
+}
+
+
+.Reviews{
+    width: 1170px;
+    height: 371px;
+    margin-top: 150px;
+    margin-left: 135px;
+}
+
+.ReviewsLabel{
+    width: 522px;
+    height: 40px;
+    font-family:"Roboto300", sans-serif;
+    font-size: 40px;
+}
+
+.ReviewBoxes{
+    display: flex;
+    justify-content: space-between;
+ 
+
+}
+
+.Shadow{
+    margin-top: 60px;
+    display: flex;
+    width: 459px;
+    height: 204px;
+    flex-shrink: 0;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.05);
+    background-color: #FFFDF5;
+}
+
+.RevBox{
+    width: 410px;
+    height: 204px;
+    flex-shrink: 0;
+    display: block;
+    padding-left: 49px;
+}
+
+.profileImg{
+    width: 94px;
+    height: 94px;
+    margin-top: 51px;
+    margin-left: 24px;
+}
+
+.scoreImg{
+    width: 70px;
+    height: 10px;
+    padding-top: 47.68px;
+}
+
+.Comment{
+    width: 263px;
+    height: 70px;
+    color: #7D7D7D;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 170%; /* 20.4px */
+    line-height: 20.4px;
+    padding-top: 14.21px;
+    padding-bottom: 12px;
+}
+
+.Name{
+    width: 82px;
+    height: 10px;
+    flex-direction: column;
+    justify-content: center;
+    color: #121212;
+    font-family: "Roboto400";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%; /* 20.4px */
+}
+
+.Date{
+    width: 65px;
+    height: 10px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #514A7E;
+    font-family: "Roboto400";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%; 
+    margin-left: 121px;
+}
+
+.ScrollBtn{
+    width: 92px;
+    height: 92px;
+    flex-shrink: 0;
+    border: 1px solid #514A7E;
+    border-radius: 50%;
+    background-color: transparent;
+    margin-top: 122px;
+}
+
+.ScrollBtn img{
+    width: 37.66px;
+    border: 1px;
+}
+
+.AddReview{
+    width: 148px;
+    height: 37px;
+    flex-shrink: 0;
+    border: 0.5px solid #514A7E;
+    background: #514A7E;
+    margin-top: 30px;
+}
+
+.AddReview label{
+    width: 109px;
+    height: 9px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #FFFDF5;
+    font-family: "Roboto400";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

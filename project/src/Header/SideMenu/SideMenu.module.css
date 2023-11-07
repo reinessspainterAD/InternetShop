@@ -1,0 +1,66 @@
+@font-face {
+    font-family: "Robobto300";
+    src: url('../../../public/fonts/Roboto-Light.ttf');
+}
+@font-face {
+    font-family: "Roboto400";
+    src: url('../../../public/fonts/Roboto400.ttf');
+}
+.Menu{
+    display: flex;
+    width: 36px;
+    height: 36px;
+    justify-content: center; /* Выравнивание по горизонтали */
+    align-items: center; /* Выравнивание по вертикали */
+    border: none;
+    background-color: #FFFDF5;
+    margin-left: 135px;
+    margin-right: 694px;
+    margin-top: 49px;
+}
+.Menu img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.OpenMenu{
+    position: absolute;
+    top: 67px;
+    left: 135px;
+    background-color: #121212;
+    width: 278px;
+    height: 855px;
+    z-index: 9999;
+}
+.OpenMenu img{
+    width: 118px;
+    height: 118px;
+}
+
+.OpenMenu p{
+    margin-left: 18px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #FFFDF5;
+    font-family: "Roboto300";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.OpenMenu p:hover{
+    display: flex;
+    width: 108px;
+    height: 15px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #FFFDF5;
+    font-family: "Roboto400";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

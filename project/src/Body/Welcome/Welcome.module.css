@@ -32,6 +32,9 @@
     margin-left: 135px;
     font-family: "Roboto300", sans-serif;
     font-size: 60px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
 }
 .Cocteil{
     font-family: "Bad Script";
