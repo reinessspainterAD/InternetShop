@@ -3,7 +3,7 @@ import styles from './Cooperation.module.css';
 
 const Cooperation = () => {
     return (
-        <div className={styles.Cooperation}>
+        <section className={styles.Cooperation}>
             <label className={styles.CooperationLabel}>Сотрудничество с нами</label>
             <p className={styles.CooperationText}>
                 Наша компания постоянно растёт и расширяет рынок, поэтому мы заинтересованы в новых партнёрах и рассматриваем новые проекты, которые могут<br/>
@@ -46,7 +46,7 @@ const Cooperation = () => {
                     <p>Бонусы за новых клиентов</p>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 

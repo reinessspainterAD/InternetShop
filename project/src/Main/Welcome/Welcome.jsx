@@ -4,7 +4,7 @@ import Button from "../CatalogBtn/Button.jsx";
 
 const Welcome = () => {
     return (
-        <div className={styles.Welcome}>
+        <section className={styles.Welcome}>
             <div className={styles.Images}>
                 <img className={styles.Img1} src='./img/Rectangle22.svg' alt='img1'/>
                 <img className={styles.Img2} src="./img/Rectangle21.png" alt="img2"/>
@@ -16,7 +16,7 @@ const Welcome = () => {
                 </label>
             </div>
             <Button />
-        </div>
+        </section>
     );
 };
 

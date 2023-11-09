@@ -1,7 +1,19 @@
 import React, { useState } from 'react';
 import styles from './SideMenu.module.css';
+import Categories from '../Categories/Categories.jsx';
 
 const SideMenu = ({MenuClick, IsOpen}) => {
+    const [selectedCategory, setSelectedCategory] = useState(null);
+    const categories = {
+        Женщинам: ['Майки', 'Костюмы', 'Блузки']
+        //Добавить остальные категории
+    };
+
+    const CategorySelect = (category) => {
+        setSelectedCategory(category);
+        console.log("ПРив!")
+    };
+    
     return (
         <>
             <button 
@@ -13,7 +25,7 @@ const SideMenu = ({MenuClick, IsOpen}) => {
             {IsOpen && (
                 <div className={styles.OpenMenu}>
                     <img src="./img/logoMenu.png" alt="logo" />
-                        <p>Женщинам</p>
+                        <p onClick={() => CategorySelect('Женщинам')}>Женщинам</p>
                         <p>Мужчинам</p>
                         <p>Детям</p>
                         <p>Обувь</p>

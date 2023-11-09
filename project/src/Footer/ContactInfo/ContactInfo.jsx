@@ -3,7 +3,7 @@ import styles from "./ContactInfo.module.css";
 
 const ContactInfo = () => {
     return (
-        <div className={styles.ContactInfo}>
+        <section className={styles.ContactInfo}>
             <label className={styles.ContactInfoLabel}>Контактная информация</label>
             <label className={styles.ContactInfoText}>
                 <p>
@@ -15,7 +15,7 @@ const ContactInfo = () => {
                 </p>
 
             </label>
-        </div>
+        </section>
     );
 };
 

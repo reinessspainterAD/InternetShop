@@ -3,7 +3,7 @@ import styles from "./MyAccount.module.css";
 
 const MyAccount = () => {
     return (
-        <div className={styles.MyAccount}>
+        <section className={styles.MyAccount}>
             <label className={styles.MyAccountLabel}>Мой кабинет</label>
             <ul className={styles.MyAccountUl}>
                 <li>
@@ -19,7 +19,7 @@ const MyAccount = () => {
                     <a>Моя информация</a>
                 </li>
             </ul>
-        </div>
+        </section>
     );
 };
 

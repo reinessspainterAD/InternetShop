@@ -3,7 +3,7 @@ import styles from './Invitation.module.css';
 
 const Invitation = () => {
     return (
-        <div className={styles.OutsideBox}>
+        <section className={styles.OutsideBox}>
             <div className={styles.InsideBox}>
                 <label className={styles.InvitationLabel}>Приглашаем к сотрудничеству производителей и поставщиков одежды, обуви и аксессуаров</label>
                 <div className={styles.Inputs}>
@@ -30,7 +30,7 @@ const Invitation = () => {
                 </div>
             
             </div>
-        </div>
+        </section>
     );
 };
 

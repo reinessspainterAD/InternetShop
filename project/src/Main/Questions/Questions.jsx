@@ -13,7 +13,7 @@ const Questions = ({questions}) => {
     };
 
     return (
-        <div className={styles.Questions}>
+        <section className={styles.Questions}>
             <div className={styles.Labels}>
                 <label className={styles.FirstLabel}>Часто задаваемые вопросы</label>
                 <label className={styles.SecondLabel}>FAQ</label>
@@ -35,7 +35,7 @@ const Questions = ({questions}) => {
                     </div>
                 ))}
             </div>
-        </div>
+        </section>
     );
 };
 

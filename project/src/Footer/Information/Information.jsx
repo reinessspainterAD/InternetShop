@@ -2,7 +2,7 @@ import React from 'react';
 import styles from "./Information.module.css";
 const Information = () => {
     return (
-        <div className={styles.Information}>
+        <section className={styles.Information}>
             <label className={styles.InformationLabel}>Информация</label>
             <ul className={styles.InformationUl}>
                 <li>
@@ -30,7 +30,7 @@ const Information = () => {
                     <a>Как сделать заказ?</a>
                 </li>
             </ul>
-        </div>
+        </section>
     );
 };
 

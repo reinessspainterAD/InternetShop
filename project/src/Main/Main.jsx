@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from "react";
 import Welcome from './Welcome/Welcome.jsx';
-import styles from './Body.module.css';
+import styles from './Main.module.css';
 import QAnswers from './Q&A/QAnswers.jsx';
 import Promotion from "./Promotion/Promotion.jsx"
 import Reviews from './Reviews/Review.jsx';

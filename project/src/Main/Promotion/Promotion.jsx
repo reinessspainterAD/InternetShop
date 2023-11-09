@@ -26,7 +26,7 @@ const Promotion = ({promotions}) => {
 
     // }
     return (
-        <div className={styles.Promotion}>
+        <section className={styles.Promotion}>
             <label className={styles.Text1}>Успей купить!</label>
             <label className={styles.Text2}>Акции</label>
             <div className={styles.ProductionBox}>
@@ -35,7 +35,7 @@ const Promotion = ({promotions}) => {
             <button className={styles.Scroller}>
                 <img className={styles.ScrollerImg} src="./img/Arrow11.png" alt="scroller" />
             </button>
-        </div>
+        </section>
             
     );
 };

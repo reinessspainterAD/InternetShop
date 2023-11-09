@@ -17,7 +17,7 @@ const Reviews = ({review}) => {
     ))
     
     return (
-        <div className={styles.Reviews}>
+        <section className={styles.Reviews}>
             <label className={styles.ReviewsLabel}>Отзывы наших покупателей</label>
             <div className={styles.ReviewBoxes}>
                 {ReviewBox}
@@ -28,7 +28,7 @@ const Reviews = ({review}) => {
             <button className={styles.AddReview}>
                 <label>Добавить отзыв</label>
             </button>
-        </div>
+        </section>
     );
 };
 

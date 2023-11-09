@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import styles from "./Header.module.css";
 import SideMenu from './SideMenu/SideMenu.jsx';
+import { NavLink } from 'react-router-dom';
 
 const Header = () => {
     const[isOpen, setIsOpen] = useState(false);
@@ -10,7 +11,7 @@ const Header = () => {
     }
 
     return (
-        <div className={styles.Header}>
+         <div className={styles.Header}>
             <SideMenu MenuClick={MenuClick} IsOpen={isOpen}/>
             <div onClick={() => {setIsOpen(false)}}
                className={styles.Header} 
@@ -19,9 +20,11 @@ const Header = () => {
                     <img src='./img/clarity_search-line.svg' alt='search'/>
                 </button>
                 <input className={styles.Input} type='text' placeholder=' Поиск'></input>
-                <button className={styles.Avatar}>
-                    <img src='./img/clarity_avatar-line.svg' alt='avatar'/>
-                </button>
+                <NavLink to='/authorization'>    
+                    <button className={styles.Avatar}>
+                        <img src='./img/clarity_avatar-line.svg' alt='avatar'/>
+                    </button>
+                </NavLink>
                 <button className={styles.Favourites}>
                     <img src='./img/clarity_heart-line.svg' alt='favourites'/>
                 </button>

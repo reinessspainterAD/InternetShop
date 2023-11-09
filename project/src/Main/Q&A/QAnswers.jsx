@@ -3,7 +3,7 @@ import styles from './QAnswers.module.css';
 
 const QAnswers = () => {
     return (
-        <div className={styles.QAnswers}>
+        <section className={styles.QAnswers}>
             <div className={styles.Question}>Почему выбирают нас?</div>
             <div className={styles.FirstLine}>
                 <div>
@@ -43,7 +43,7 @@ const QAnswers = () => {
             <button className={styles.Chat}> 
                 <img src="./img/chat.svg" alt="chat" />
             </button>
-        </div>
+        </section>
     );
 };
 
