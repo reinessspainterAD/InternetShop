@@ -14,12 +14,11 @@
 }
 
 .Cooperation{
+    margin-top: 150px;
+    margin-left: 135px;
     width: 1171px;
     height: 467px;
     flex-shrink: 0;
-    position: relative;
-    left: 135px;
-    top: 420px;
 }
 
 .CooperationLabel{

@@ -6,7 +6,7 @@ const Promotion = ({promotions}) => {
         <>
             <div className={styles.Product}>
                 <img className={styles.ProductImg} src={prom.img} />
-                <div className={styles.LabelDiv}>
+                <div className={styles.LabelDiv2}>
                     <label className={styles.PromPrice}>{prom.priceProm}</label>
                     <label className={styles.RegPrice}>{prom.price}</label>
                 </div>
@@ -27,8 +27,10 @@ const Promotion = ({promotions}) => {
     // }
     return (
         <section className={styles.Promotion}>
-            <label className={styles.Text1}>Успей купить!</label>
-            <label className={styles.Text2}>Акции</label>
+            <div className={styles.LabelDiv1}>    
+                <label className={styles.Text1}>Успей купить!</label>
+                <label className={styles.Text2}>Акции</label>
+            </div>
             <div className={styles.ProductionBox}>
                 {mapping}
             </div>

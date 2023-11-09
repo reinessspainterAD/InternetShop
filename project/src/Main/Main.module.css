@@ -1,6 +1,6 @@
 .Body{
     width: 1440px;
-    height: 4445px;
+    height: 4420px;
     overflow: hidden;
 }
 .Circle{
@@ -16,36 +16,35 @@
 }
 
 .Circle2{
-    position: relative;
-    top: 0px;
-    left: 1268px;
-    width: 380px;
-    height: 366px;
-    transform: rotate(-89.993deg);
+    position: absolute;
+    top: 2600px;
+    left: 1294px;
+    width: 150px;
+    height: 300px;
     flex-shrink: 0;
-    border-radius: 380px;
+    border-radius: 100% 0% 0 100% / 50%;
     border: 1px solid #514A7E;
 }
 
 .Circle3{
-    width: 200px;
+    width: 100px;
     height: 200px;
-    border-radius: 50%;
+    border-radius: 100% 0% 0 100% / 50%;
     flex-shrink: 0;
     background-color: #514A7E;
     stroke-width: 1px;
-    position: relative;
-    top: 720px;
-    left: 1340px;
+    position: absolute;
+    top: 4149px;
+    left: 1347px;
 }
 
 .Circle4{
-    width: 380px;
+    width: 190px;
     height: 380px;
     flex-shrink: 0;
-    border-radius: 380px;
+    border-radius: 100% 0% 0 100% / 50%;
     border: 1px solid #514A7E;
-    position: relative;
-    top: 620px;
-    left: 1257px;
+    position: absolute;
+    top: 4260px;
+    left: 1254px;
 }

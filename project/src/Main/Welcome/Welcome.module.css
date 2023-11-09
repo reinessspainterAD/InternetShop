@@ -24,6 +24,7 @@
 
 .Img2{
     vertical-align: top;
+    margin-left: 40px;
     width: 476px;
     height: 416px;
     flex-shrink: 0;
@@ -32,7 +33,7 @@
 .Welcoming{
     position: relative;
     top: 280px;
-    right: 1122px;
+    right: 1165px;
     width: 537px;
     height: 114px;
     font-family: "Roboto300", sans-serif;
@@ -51,7 +52,7 @@
 .SmallText{
     position: relative;
     top: 500px;
-    right: 1660px;
+    right: 1695px;
     height: 138px;
 }
 

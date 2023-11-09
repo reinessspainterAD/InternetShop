@@ -14,9 +14,8 @@
 }
 
 .Questions{
-    position: absolute;
-    top: 2839px;
-    left:135px;
+    margin-top: 150px;
+    margin-left: 135px;
     width: 1170px;
     height: 497px;
 }

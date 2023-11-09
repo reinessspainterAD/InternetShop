@@ -18,24 +18,22 @@
 }
 .OutsideBox{
     display: flex;
+    margin-top: 150px;
+    margin-bottom: 150px;
     width: 971px;
     height: 411.239px;
     flex-shrink: 0;
     background: #514A7E;
     box-shadow: 0px 4px 20px 0px rgba(51, 51, 51, 0.05);
-    position: absolute;
-    top: 4090px;
-    margin-bottom: 150px;
 }
 
 .InsideBox{
+    margin-top: 40px;
+    margin-left: 135px;
     width: 714px;
     height: 332.576px;
     flex-shrink: 0;
     background: #FFFDF5;
-    position: absolute;
-    top: 39.83px;
-    left: 135px;
 }
 
 .InvitationLabel{
@@ -164,4 +162,41 @@
     color: #FFFDF5;
     margin-left: 9px;
     margin-bottom: 2px;
+}
+
+.HiddenCheckbox {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.CustomCheckbox {
+    width: 7px;
+    height: 7px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+    background-color: #fff;
+}
+
+.HiddenCheckbox:checked + .CustomCheckbox::after {
+    content: '';
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    display: block;
+    background-color: #000;
+
+}
+
+.CheckboxText{
+    color: #7D7D7D;
+    text-align: center;
+    font-family: "Roboto100";
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 118%;
 }
