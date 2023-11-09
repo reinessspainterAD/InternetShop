@@ -1,15 +1,19 @@
 import React, { useState } from 'react';
 import styles from "./Header.module.css";
 import SideMenu from './SideMenu/SideMenu.jsx';
-import { NavLink } from 'react-router-dom';
+import Authorization from './Authorization/Authorization.jsx';
 
 const Header = () => {
     const[isOpen, setIsOpen] = useState(false);
+    const[AuthIsOpen, setAuthIsOpen] = useState(false);
 
     const MenuClick = () => {
         setIsOpen(!isOpen);
     }
 
+    const AuthClick = () =>{
+        setAuthIsOpen(!AuthIsOpen)
+    }
     return (
          <div className={styles.Header}>
             <SideMenu MenuClick={MenuClick} IsOpen={isOpen}/>
@@ -20,11 +24,7 @@ const Header = () => {
                     <img src='./img/clarity_search-line.svg' alt='search'/>
                 </button>
                 <input className={styles.Input} type='text' placeholder=' Поиск'></input>
-                <NavLink to='/authorization'>    
-                    <button className={styles.Avatar}>
-                        <img src='./img/clarity_avatar-line.svg' alt='avatar'/>
-                    </button>
-                </NavLink>
+                <Authorization AuthClick={AuthClick} AuthIsOpen={AuthIsOpen}/>
                 <button className={styles.Favourites}>
                     <img src='./img/clarity_heart-line.svg' alt='favourites'/>
                 </button>

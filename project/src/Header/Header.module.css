@@ -60,12 +60,12 @@
     outline: none;
 }
 
-.Avatar{
+/* .Avatar{
     display: flex;
     width: 20px;
     height: 20px;
-    justify-content: center; /* Выравнивание по горизонтали */
-    align-items: center; /* Выравнивание по вертикали */
+    justify-content: center;
+    align-items: center;
     border: none;
     background-color: #FFFDF5;
     margin-right: 10px;
@@ -74,7 +74,7 @@
 .Avatar img{
     max-width: 500%;
     max-height: 500%;
-}
+} */
 
 .Favourites{
     display: flex;

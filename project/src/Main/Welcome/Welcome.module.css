@@ -8,28 +8,33 @@
     src: url('../../../public/fonts/Roboto-Light.ttf');
 }
 .Welcome{
-
-    position: relative;
     width: 1444px;
+    height: 716px;
+    display: flex;
 }
 
 .Img1{
     vertical-align: top;
     margin-left: 135px;
     margin-right: 380px;
+    width: 278px;
+    height: 242px;
+    flex-shrink: 0;
 }
 
 .Img2{
     vertical-align: top;
+    width: 476px;
+    height: 416px;
+    flex-shrink: 0;
 }
 
 .Welcoming{
-    position: absolute;
-    bottom: 0;
-    left: 0;
+    position: relative;
+    top: 280px;
+    right: 1122px;
     width: 537px;
     height: 114px;
-    margin-left: 135px;
     font-family: "Roboto300", sans-serif;
     font-size: 60px;
     flex-direction: column;
@@ -44,18 +49,17 @@
 }
 
 .SmallText{
-    position: absolute;
-    top: 350px;
-    left: 0;
-    width: 249px;
+    position: relative;
+    top: 500px;
+    right: 1660px;
     height: 138px;
-    margin-left: 135px;
-    margin-top: 174px;
 }
 
 .SmallText p{
-    margin: 0;
     font-family: "Roboto300", sans-serif;
     font-size: 16px;
     color: #7D7D7D;
+    width: 249px;
+    margin: 0;
+
 }

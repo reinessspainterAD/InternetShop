@@ -1,24 +1,16 @@
-import Header from "../src/Header/Header.jsx";
-import Main from "./Main/Main.jsx";
-import Footer from "../src/Footer/Footer.jsx";
+import Home from './Home.jsx';
 import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Authorization from '../src/Header/Authorization/Authorization.jsx';
+import Login from './Header/Authorization/Login/Login.jsx';
 
 function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <header className="App-header">
-          <Header/>
-          <Routes>
-            <Route path="authorization" element={<Authorization/>}/>
-          </Routes>
-        </header>
-        <Main />
-        <footer className="App-footer">
-          <Footer />
-        </footer>
+        <Routes>
+          <Route path="/" element={<Home />}/>
+          <Route path="/login" element={<Login />}/>
+        </Routes>
       </div>
     </BrowserRouter>
   );

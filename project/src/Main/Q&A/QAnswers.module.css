@@ -4,12 +4,10 @@
 }
 
 .QAnswers{
+    margin-top: 200px;
     width: 1029px;
     height: 318px;
     margin-left: 135px;
-    position: absolute;
-    top: 1136px;
-
 }
 
 .Question{
@@ -25,66 +23,69 @@
     display: flex;
     margin-bottom: 95px;
     justify-content: space-between;
+    text-align: left;
 }
 
 .SecondLine{
     display: flex;
     justify-content: space-around;
+    text-align: left;
 }
 
 .FirstLine div{
     display: flex;
-    width: 175px;
+    width: 220px;
     height: 26px;
     font-family: "Roboto300", sans-serif;
     font-size: 14px;
     color: #7D7D7D;
+    margin: 100;
 }
 
 .SecondLine div{
     display: flex;
-    width: 175px;
+    width: 220px;
     height: 26px;
     font-family: "Roboto300", sans-serif;
     font-size: 14px;
     color: #7D7D7D;
 }
 
-.Ellipse1{
-    position: absolute;
-    width: 56px;
-    height: 56px;
-    top: 145px;
-    left: 95px;
+ .Ellipse1{
+    position: relative;
+    width: 35px;
+    height: 35px;
+    top: 15px;
+    right: 25px;
 }
 
 .Ellipse2{
-    position: absolute;
-    width: 94px;
-    height: 94px;
-    top: 83px;
-    left: 720px;
+    position: relative;
+    width: 54px;
+    height: 54px;
+    bottom: 22px;
+    left: 0px;
 }
 
 .Ellipse3{
-    position: absolute;
-    width: 94px;
-    height: 94px;
-    top: 262px;
-    left: 308px;
+    position: relative;
+    width: 54px;
+    height: 54px;
+    top: 15px;
+    right: 15px;
 }
 
 .Ellipse4{
-    position: absolute;
-    width: 56px;
-    height: 56px;
-    top: 240px;
-    left: 834px;
+    position: relative;
+    width: 35px;
+    height: 35px;
+    bottom: 5px;
+
 }
 
 .Up{
-    position: absolute;
-    top: 270px;
+    position: relative;
+    top: 0px;
     width: 72px;
     height: 72px;
     background-color: #514A7E;
@@ -93,8 +94,8 @@
 }
 
 .Chat{
-    position: absolute;
-    top: 270px;
+    position: relative;
+    top: 0px;
     left: 1100px;
     width: 72px;
     height: 72px;

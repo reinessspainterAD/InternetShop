@@ -3,16 +3,15 @@
     src: url('../../../public/fonts/Roboto400.ttf');
 }
 .BtnWrapper{
-    position: absolute;
-    margin-top: 87px;
-    margin-left: 623px;
+    position: relative;
+    top: 507px;
+    right: 1450px;
     width: 193px;
     height: 193px;
     border-radius: 50%;
 }
 
 .Btn{
-    position: relative;
     width: 193px;
     height: 193px;
     border-radius: 50%;

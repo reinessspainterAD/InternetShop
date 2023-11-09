@@ -1,15 +1,72 @@
+@font-face {
+    font-family: "Robobto300";
+    src: url('../../../public/fonts/Roboto-Light.ttf');
+}
+@font-face {
+    font-family: "Roboto400";
+    src: url('../../../public/fonts/Roboto400.ttf');
+}
 .AuthorizationBox{
     display: block;
-    position: absolute;
-    left: 600px;
     width: 211px;
     height: 239px;
     flex-shrink: 0;
+    background: #FFFDF5;
+    box-shadow: 0px 4px 20px 0px rgba(51, 51, 51, 0.05);
+    position: absolute;
+    left: 1097px;
+    top: 135px;
+    text-align: center;
+    z-index: 9999;
 }
 
+
 .Avatar{
-    padding-top: 18px;
-}
-.Authorization div{
     display: flex;
+    width: 20px;
+    height: 20px;
+    justify-content: center; /* Выравнивание по горизонтали */
+    align-items: center; /* Выравнивание по вертикали */
+    border: none;
+    background-color: #FFFDF5;
+    margin-right: 10px;
+    margin-top: 54px;
+
+}
+.Avatar img{
+    max-width: 500%;
+    max-height: 500%;
+}
+
+.Avatarr{
+    width: 39px;
+    height: 39px;
+    padding-top: 18px;
+    padding-bottom: 15px;
+}
+
+
+.LoginBtn{
+    width: 109px;
+    height: 26px;
+    flex-shrink: 0;
+    border: 0.5px solid #514A7E;
+    background: #514A7E;
+    justify-content: center;
+    color: #FFFDF5;
+    font-family: "Roboto400";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.AuthorizationBox div{
+    margin: 20px;
+    text-align: left;
+    display: flex;
+}
+
+.AuthorizationBox span{
+    margin-left: 11px;
 }
