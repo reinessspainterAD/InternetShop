@@ -74,11 +74,11 @@
 
 .Name::placeholder{
     width: 54px;
-    height: 8.962px;
+    height: 14.16px;
     color: #7D7D7D;
     text-align: left;
     font-family: "Roboto100";
-    font-size: 11px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 100;
     line-height: 118%; /* 14.16px */
@@ -99,11 +99,11 @@
 
 .PhoneNumber::placeholder{
     width: 92px;
-    height: 8.962px;
+    height: 14.16px;
     color: #7D7D7D;
     text-align: left;
     font-family: "Roboto100";
-    font-size: 11px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 100;
     line-height: 118%; /* 14.16px */
@@ -124,11 +124,11 @@
 
 .Email::placeholder{
     width: 113px;
-    height: 8.962px;
+    height: 14.16px;
     color: #7D7D7D;
     text-align: left;
     font-family: "Roboto100";
-    font-size: 11px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 100;
     line-height: 118%; /* 14.16px */

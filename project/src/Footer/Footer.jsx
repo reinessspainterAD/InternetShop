@@ -7,14 +7,14 @@ import SocialMedia from "./SocialMedia/SocialMedia.jsx";
 
 const Footer = () => {
     return (
-        <div className={styles.Footer}>
+        <footer className={styles.Footer}>
             <Information />
             <MyAccount />
             <ContactInfo />
             <SocialMedia />
             <img className={styles.Image} src='./img/logoneon.svg' alt='logo'/>
 
-        </div>
+        </footer>
     );
 };
 

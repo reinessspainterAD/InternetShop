@@ -92,7 +92,7 @@ const Body = () => {
     ])
 
     return (
-        <div className={styles.Body} >
+        <main className={styles.Body} >
             <Welcome />
             <div className={styles.Circle}></div>
             <QAnswers />
@@ -104,7 +104,7 @@ const Body = () => {
             <Invitation />
             <div className={styles.Circle3}></div>
             <div className={styles.Circle4}></div>
-        </div>
+        </main>
     );
 };
 

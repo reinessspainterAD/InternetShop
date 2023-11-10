@@ -1,0 +1,55 @@
+@font-face {
+    font-family: "Roboto400";
+    src: url('../../../../public/fonts/Roboto400.ttf');
+}
+
+@font-face {
+    font-family: "Robobto300";
+    src: url('../../../../public/fonts/Roboto-Light.ttf');
+}
+
+.OutsideSpace{
+    display: flex;
+    width: 1440px;
+    height: 800px;
+    background-color: #afafaf;
+}
+
+.Registration{
+    width: 1440px;
+    height: 526px;
+    flex-shrink: 0;
+    background-color: #FFFDF5;
+    margin-top: 135px;
+}
+
+.CloseBtn{
+    width: 47px;
+    height: 47px;
+    flex-shrink: 0;
+    filter: drop-shadow(0px 4px 10px rgba(81, 74, 126, 0.40));
+    border-radius: 50%;
+    border: 1px solid #514A7E;
+    background-color: #514A7E;
+    text-align: center;
+    margin-top: 85px;
+    margin-left: 741px;
+    margin-bottom: 18px;
+}
+
+.RegistrationLabel{
+    display: flex;
+    width: 447px;
+    height: 24px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #121212;
+    font-family: "Roboto300";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 87.305%; /* 34.922px */
+    margin-bottom: 60px;
+    margin-left: 113px;
+}

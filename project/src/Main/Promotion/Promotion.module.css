@@ -25,12 +25,16 @@
     display: flex;
     margin-top: 60px;
     justify-content: space-between;
+    overflow-x: scroll;
     /* overflow-x: scroll; */
+}
+
+.ProductionBox::-webkit-scrollbar{
+    display: none;
 }
 
 .Product{
     width: 278px;
-    height: 413px;
     display: block;
 }
 

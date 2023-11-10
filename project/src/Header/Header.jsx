@@ -15,7 +15,7 @@ const Header = () => {
         setAuthIsOpen(!AuthIsOpen)
     }
     return (
-         <div className={styles.Header}>
+        <header className={styles.Header}>
             <SideMenu MenuClick={MenuClick} IsOpen={isOpen}/>
             <div onClick={() => {setIsOpen(false)}}
                className={styles.Header} 
@@ -32,7 +32,7 @@ const Header = () => {
                     <img src='./img/clarity_shopping-bag-line.svg' alt='shoppingbag'/>
                 </button>
             </div>
-        </div>
+        </header>
     );
 };
 
